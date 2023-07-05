@@ -1,0 +1,11 @@
+version=4
+opts="mode=git, pgpmode=none" \
+  https://github.com/OpenPrinting/goipp.git \
+  HEAD debian
+
+# Use the following when upstream starts to tag releases:
+#
+#version=4
+#opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%golang-github-openprinting-goipp_$1.orig.tar.gz%,\
+#      uversionmangle=s/(\d)[_\.\-\+]?(RC|rc|pre|dev|beta|alpha)[.]?(\d*)$/\$1~\$2\$3/" \
+#  https://github.com/OpenPrinting/goipp/tags .*/v?(\d\S*)\.tar\.gz debian
