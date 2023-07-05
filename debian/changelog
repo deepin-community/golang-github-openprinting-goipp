@@ -1,5 +1,32 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-openprinting-goipp (1.0.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Remove myself from Uploaders
+  * S-V: Update to 4.6.0 without changes needed
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Didier Raboud <odyx@debian.org>  Thu, 02 Sep 2021 16:03:52 +0200
+
+golang-github-openprinting-goipp (1.0.0-1) unstable; urgency=medium
+
+  * New 1.0.0 tag, identical to latest upstream snapshot
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 21 Aug 2020 10:09:57 +0200
+
+golang-github-openprinting-goipp (0.0~git20200517.da79ff1-3) unstable; urgency=medium
+
+  [ Roger Shimizu ]
+  * d/control: Add Multi-Arch: foreign
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 07 Aug 2020 13:59:36 +0200
+
+golang-github-openprinting-goipp (0.0~git20200517.da79ff1-2) unstable; urgency=medium
+
+  * debian/control:
+    - Add back myself as uploader.
+
+ -- Roger Shimizu <rosh@debian.org>  Fri, 17 Jul 2020 00:44:17 +0900
+
+golang-github-openprinting-goipp (0.0~git20200517.da79ff1-1) unstable; urgency=low
+
+  * Initial release (Closes: #964590)
+
+ -- Didier Raboud <odyx@debian.org>  Thu, 09 Jul 2020 22:12:08 +0200
